@@ -1,0 +1,76 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.header{
+  
+   background-image: url(/bg-desktop-light.jpg);
+   background-repeat:no-repeat;
+  background-size: cover;
+ padding:30px 0px;
+  
+}
+.max-width, .taskList{
+  width:40%;
+  margin: auto;
+  
+}
+
+input,textarea{
+  width:100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(204, 201, 201);
+}
+.max-width button{
+  width: 100%;
+  padding:5px;
+  border-radius: 5px;
+  border: 0;
+  
+}
+.w-100{
+  width:100%;
+  margin-bottom: 20px;
+}
+label{
+  margin-bottom: 5px;
+}
+li{
+  list-style-type: none;
+  border: 1px solid rgb(218, 216, 216);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.taskList button{
+ border:1px solid brown;
+ background-color: brown;
+ padding: 2px 10px;
+ color: #ffff;
+ border-radius: 2px;
+}
+.w-30{
+width:40%;
+gap:10px;
+}
+.w-70{
+  width:60%;
+}
+/* MOBILE VIEW */
+@media (max-width: 810px){
+li, input, textarea, .max-width button{
+  width:120%;
+}
+}
+
+    
+    
